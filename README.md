@@ -372,6 +372,15 @@ string.isdigit()
 string.isupper() # The isupper() method returns True if all cased characters in the string are uppercase and there is at least one cased character, False otherwise.
 ```
 
+The SortedList class from the sortedcontainers module is a data structure in Python that maintains a sorted list of elements while allowing for efficient insertion, deletion, and access operations. 
+It is implemented using a combination of binary search trees and dynamic arrays, which enables it to achieve efficient time complexities for these operations.
+
+*Insertion and deletion operations in a SortedList have logarithmic time complexity on average O(logn), making it efficient for maintaining a sorted list even with a large number of elements.
+
+from sortedcontainers import SortedList
+
+![image](https://github.com/AbdulMalikDev/PythonCheatSheet/assets/57050280/9cb7930d-4e11-47a9-b8a6-75a693eb7994)
+
 # Built-in or Library functions
 
 - Functions to iterate over list / other iterable (tuple, dictionaries)
